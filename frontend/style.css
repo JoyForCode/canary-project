@@ -1,0 +1,99 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light grey-blue background */
+    color: #333; /* Darker text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007acc; /* Deep blue for the header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Container for the main content */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for content area */
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Image Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow around the image */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #007acc; /* Match header color */
+    color: white;
+}
+
+td {
+    background-color: #f9fbfd; /* Slightly lighter background for table cells */
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0;
+    background-color: #007acc; /* Deep blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+button:hover {
+    background-color: #005999; /* Slightly darker on hover */
+}
+
+footer {
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
